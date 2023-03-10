@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+    background-color: rgb(109, 161, 206);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.info {
+    padding: 5px;
+    margin-top: 185px;
+    background-color: lightgray;
+    border: solid 2px black;
+    width: fit-content;
+    height: fit-content;
+}
+
+.game {
+    margin: 10px;
+    padding: 20px;
+    width: auto;
+    position: relative;
+}
+
+.img {
+    display: block;
+    margin-left: 45px;
+}
+
+p {
+    font-weight: 200;
+    font-size: 40px;
+    margin-left: 5px;
+    color: black;
+    text-shadow: 4px 4px 4px #bfbbbb;
+}
+
+.Score {
+    padding-top: 1em;
+    margin-inline-end: 10px;
+    color: black;
+    text-shadow: 4px 4px 4px #bfbbbb;
+    /* font-family:cursive; */
+    font-size: 2em;
+}
+
+.timer {
+    padding-top: 1em;
+    margin-inline-end: 10px;
+    color: black;
+    text-shadow: 4px 4px 4px #bfbbbb;
+    /* font-family:cursive; */
+    font-size: 2em;
+}
+
+.Lives {
+    padding-top: 1em;
+    margin-inline-end: 10px;
+    color: black;
+    text-shadow: 4px 4px 4px #bfbbbb;
+    /* font-family:cursive; */
+    font-size: 2em;
+}
+
+.message {
+    padding-top: 1em;
+    margin-inline-end: 10px;
+    color: black;
+    text-shadow: 4px 4px 4px #bfbbbb;
+    /* font-family:cursive; */
+    font-size: 2.5em;
+}
+
+.instructions {
+    /* padding-top: 2em;
+    margin-inline-end: 10px; */
+    color: black;
+    text-shadow: 4px 4px 4px #bfbbbb;
+    /* font-family:cursive; */
+    font-size: 2em;
+}
+
+.grid {
+    background-color: black;
+    position: static;
+    box-shadow: 10px 10px 20px black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 630px;
+    height: 630px;
+    margin-top: 15px;
+    margin-right: 200px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.grid div {
+    width: 22.5px;
+    height: 22.5px;
+}
+
+.pac-dot {
+    background-image: url('/assets/images/yellowDot.png');
+    background-size: 110%;
+    color: black;
+}
+
+.wall {
+    background-image: url('/assets/images/brick2.jpg');
+    background-size: 1000%;
+}
+
+/* .ghost-lair {
+    background-image: url('/assets/images/ghostLair.gif');
+    background-size: 150%;
+} */
+
+.power-pellet {
+    background-image: url('/assets/images/pill2.gif');
+    background-size: 125%;
+    background-position: center;
+}
+
+.blinky {
+    background-image: url('/assets/images/redghostgif.gif');
+    background-size: 110%;
+}
+
+.pinky {
+    background-image: url('/assets/images/pinkghostgif.gif');
+    background-size: 110%;
+}
+
+.inky {
+    background-image: url('/assets/images/greenghostgif.gif');
+    background-size: 110%;
+}
+
+.clyde {
+    background-image: url('/assets/images/orangegifghost.gif');
+    background-size: 110%;
+}
+
+.scared-ghost {
+    background-image: url('/assets/images/scaredGhost.gif');
+    background-size: 110%;
+}
+.ghost-eyes {
+    background-image: url('/assets/images/ghost-eyes.png');
+    background-size: 110%;
+}
+
+.pac-man {
+    background-image: url('/assets/images/pac-man.gif');
+    background-size: 130%;
+    background-position: center;
+}
+
+.pac-man-left {
+    background-image: url('/assets/images/pac-man.gif');
+    transform: scaleX(-1);
+    background-size: 130%;
+    background-position: center;
+}
+
+.pac-man-up {
+    background-image: url('/assets/images/pac-man.gif');
+    transform: rotate(270deg);
+    background-size: 130%;
+    background-position: center;
+}
+
+.pac-man-down {
+    background-image: url('/assets/images/pac-man.gif');
+    transform: rotate(90deg);
+    background-size: 130%;
+    background-position: center;
+}
+
+.pac-man-live {
+    background-image: url('/assets/images/pac-man.gif');
+    background-size: 130%;
+    background-position: center;
+}

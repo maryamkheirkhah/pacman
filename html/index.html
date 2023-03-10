@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PACMAN</title>
+    <link rel="shortcut icon" href="/assets/images/Pacman.png">
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="game">
+        <img class='img' src="/assets/images/pacmanSign.png" width="500" height="150">
+        <div class="grid"></div>
+    </div>
+
+    <div class="info">
+        <div class="instructions">
+            <p> GAME CONTROLS</p>
+            <lable>Move with the <strong>WASD </strong>keys</lable><br>
+            <label>Win the game by eating all <strong>234</strong> pac-dots</label><br>
+            <label>Press <strong>ENTER</strong> to start</label><br>
+            <label>Press <strong>P</strong> to <strong>Pause</strong></label><br>
+            <label>Press <strong>C</strong> to <strong>Continue</strong></label><br>
+            <label>Press <strong>R</strong> to <strong>Restart</strong></label>
+            </p>
+        </div>
+        <div class="timer"><strong>Timer :</strong>
+            <label id='mins'>02</label>
+            <label id='colon'> : </label>
+            <label id='secs'> 00 </label>
+        </div>
+
+        <div class=Score>
+            <label><strong>Score : </strong><span id="score">0</span></label>
+        </div>
+
+        <div class="Lives">
+            <label><strong>Lives :</strong><span id="lives">3</span></label>
+        </div>
+        <div class="message">
+            <label id="displayMessage"></label>
+        </div>
+    </div>
+    <script src="/js/index.js" charset="utf-8" type="module"></script>
+
+</body>
+
+</html>
